@@ -1,2 +1,6 @@
 .venv
 data/
+!data/titanic/
+!data/titanic/raw/
+!data/titanic/raw/test.csv
+!data/titanic/raw/train.csv
