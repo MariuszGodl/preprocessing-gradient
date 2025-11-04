@@ -3,6 +3,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 def multiboxplot(df, cols_to_exclude=None, nr_of_plots_col=3) -> list[list[str, pd.DataFrame]]:
 
     def get_outliers(column_of_interest, iqr_const=1.5) -> list[str, pd.DataFrame]:

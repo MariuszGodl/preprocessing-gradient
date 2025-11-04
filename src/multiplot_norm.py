@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def multiplot_norm(df, column_to_hue, cols_to_exclude=None, nr_of_plots_col=3):
+    
+    if df[column_to_hue].nunique() > 10:
+        raise ValueError(f"Categoritze the {column_to_hue}")
+    
     if cols_to_exclude is None:
         cols_to_exclude = []
     

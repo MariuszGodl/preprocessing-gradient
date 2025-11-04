@@ -1,3 +1,16 @@
-.venv
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
 data/
 solutions/houses_1_ex.ipynb
+
+# I will post that later
+src/basic_info.py
